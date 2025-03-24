@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="home.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="about">
+            <h1>About Me</h1>
+            <p>Hello, I'm Tony Nguyen. I am a software engineering student at the University of Nebraska-Lincoln. <br>
+                I have done various projects varying from Back-End, Front-End, and Full Stack development in various <br>
+                class projects. I am always excited to be able to learn and work with new technologies, and is always <br>
+                looking to grow as a software engineer.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h1>Skills</h1>
+            <div class="skills-container">
+                <div class="skill">Java</div>
+                <div class="skill">Python</div>
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">C/C++</div>
+                <div class="skill">SQL</div>
+                <div class="skill">Git</div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h1>Projects</h1>
+            <div class="projects-container">
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/travel_planner_app.png" alt="Project 1 Screenshot">
+                    </div>
+                    <h2>Travel Planner App</h2>
+                    <p>Worked in a team to create a multifunctional travel planner app with 2 additional trackers.</p>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/zulip_contribution.png" alt="Project 2 Screenshot">
+                    </div>
+                    <h2>Zulip Open-Source Contributions</h2>
+                    <p>Worked in a team to implement an upvoting system and private message muting as contributions to Zulip, an open-source project.</p>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/vr_protein_visualizer.png" alt="Project 3 Screenshot">
+                    </div>
+                    <h2>VR Protein Sequence Virtualizer</h2>
+                    <p>Worked in a team to create a web app and VR environment to visualize protein sequences and structures.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1>Contact</h1>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <!-- <footer>
+            <p>&copy; <span id="year"></span> Tony Nguyen</p>
+        </footer> -->
+
+        <script src="home.js"></script>
+    </body>
+</html>
